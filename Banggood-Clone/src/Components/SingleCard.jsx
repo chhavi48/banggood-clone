@@ -58,7 +58,7 @@ const SingleCard = (props) => {
 <h6>{props.name}</h6>
 <Det >
      <p>Brand:{props.brand}</p>
-     <p style={{marginTop:"-5px"}}><span style={{fontSize:"22px",color:"#ff4b31"}}>★★★★★</span>{props.ratings}</p>
+     <p style={{marginTop:"-5px"}}><span style={{fontSize:"22px",color:"#ff4b31"}}>★★★★</span>{props.ratings}</p>
      <p>4 Reviews</p>
      <p> Questions & Answers</p>
      <p>ID: 1861017 </p>
@@ -68,7 +68,7 @@ const SingleCard = (props) => {
      <p style={{textDecoration:"line-through"}}>{props.price}</p>
      <h6 style={{color:"#ff4b31",backgroundColor:"#fff5e6",borderRadius:"20px"}}>-28%</h6>
 </Det2>
-<div style={{backgroundColor:"#ff4b31",color:"white",width:"220px"}} className="mb-0 p-0">US$2.00 New User Allowance</div>
+<div style={{backgroundColor:"#ff4b31",color:"white",width:"220px"}} className="mb-0 p-0">₹2.00 New User Allowance</div>
 </div>
   <ButtonGroup className="me-2 mt-3 ml-2">
     <Button className="m-1 px-4 py-2 Sizebtn" style={{border:"1px solid grey",backgroundColor:"white", color:"grey"}}>S</Button>

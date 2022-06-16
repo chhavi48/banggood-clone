@@ -39,7 +39,7 @@ const CartProduct = () => {
 
                 <Contents>
                          <h6 style={{color:"#ff4b31"}}>Season New Fashion Casual Large Size Striped Wide Leg Shorts Two-piece Slimming Net Red Suit Female - Blue XL</h6>
-                         <p style={{color:"grey"}}>Buy It Now +$20 shipping from China</p>
+                         <p style={{color:"grey"}}>Buy It Now ₹20 shipping from China</p>
                         <Operate> 
                               <Counter/>
                               <button className="px-3 py-1 mx-2"style={{fontWeight:"bold", border:"none"}}><MdDelete/></button>

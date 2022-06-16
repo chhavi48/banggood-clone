@@ -42,32 +42,32 @@ const {prod,val,setProd,getData}=useContext(Context);
 
   const Sort=(value,type)=>{
 
-  if(type==="P"){
-    if(value==="Low"){
-      prod.sort(function(a,b){
-        return a.price-b.price;
-      })
-    }
-    else{
-      prod.sort(function(a,b){
-        return b.price-a.price;
-      }) 
-    }
-    setProd([...prod]);
-  }
-  else{
-      if(value==="Low"){
-      prod.sort(function(a,b){
-        return a.ratings-b.ratings;
-      })
-      }
-      else{
-      prod.sort(function(a,b){
-        return b.ratings-a.ratings;
-      }) 
-    }
-    setProd([...prod]);
-  }
+  // if(type==="P"){
+  //   if(value==="Low"){
+  //     prod.sort(function(a,b){
+  //       return a.price-b.price;
+  //     })
+  //   }
+  //   else{
+  //     prod.sort(function(a,b){
+  //       return b.price-a.price;
+  //     }) 
+  //   }
+  //   setProd([...prod]);
+  // }
+  // else{
+  //     if(value==="Low"){
+  //     prod.sort(function(a,b){
+  //       return a.ratings-b.ratings;
+  //     })
+  //     }
+  //     else{
+  //     prod.sort(function(a,b){
+  //       return b.ratings-a.ratings;
+  //     }) 
+  //   }
+  //   setProd([...prod]);
+  // }
 
       
       
