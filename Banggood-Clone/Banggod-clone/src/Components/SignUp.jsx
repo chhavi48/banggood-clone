@@ -49,7 +49,7 @@ const handleSubmit=(e)=>{
   return(
  <Container>
    <div style={{backgroundColor:"#fff5e6",color:"#ff4b31"}} className="mb-3 p-2">
-     Get Free Gift and $2 allowance for New User</div>
+     Get Free Gift and ₹2 allowance for New User</div>
      <form onSubmit={handleSubmit}>
   <Form.Control className='mb-4 pt-2 pb-2'
     type="text"

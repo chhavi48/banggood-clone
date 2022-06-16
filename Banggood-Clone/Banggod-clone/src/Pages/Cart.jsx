@@ -41,7 +41,7 @@ const Cart = () => {
                 <Col md={2}>
                   <span><h6>{prod.name}</h6></span>
                 </Col>
-                <Col style={{color:"#ff6e26",fontWeight:"bold"}}md={2}>$ {prod.price}</Col>
+                <Col style={{color:"#ff6e26",fontWeight:"bold"}}md={2}>₹ {prod.price}</Col>
                 <Col md={2}>
                 </Col>
                 <Col md={2}>
@@ -99,7 +99,7 @@ const Cart = () => {
     </>
   );
 };
-// Total: ₹ (`Math.round${total}`
+// Total: ₹ (`Math.round₹{total}`
 
 export default Cart;
 

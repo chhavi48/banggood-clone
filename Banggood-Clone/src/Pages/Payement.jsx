@@ -167,7 +167,7 @@ const Payement = () => {
 
     <div style={{display:"flex",justifyContent:"space-between"}}>
      <h4 className="mt-3">Total Amount</h4>
-     <h4 className="mt-3">US ${total}</h4>
+     <h4 className="mt-3">US ₹{total}</h4>
      </div>
     <Button 
     type="submit"

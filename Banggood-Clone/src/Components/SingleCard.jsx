@@ -64,8 +64,8 @@ const SingleCard = (props) => {
      <p>ID: 1861017 </p>
 </Det>
 <Det2 className="pt-2">
-     <h4>US${props.price}</h4>
-     <p style={{textDecoration:"line-through"}}>{props.price}</p>
+     <h4>₹{props.price}</h4>
+     <p style={{textDecoration:"line-through"}}>₹{props.price}</p>
      <h6 style={{color:"#ff4b31",backgroundColor:"#fff5e6",borderRadius:"20px"}}>-28%</h6>
 </Det2>
 <div style={{backgroundColor:"#ff4b31",color:"white",width:"220px"}} className="mb-0 p-0">₹2.00 New User Allowance</div>

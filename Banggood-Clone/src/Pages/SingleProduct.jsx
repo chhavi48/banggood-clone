@@ -26,7 +26,7 @@ const SingleProduct = () => {
                  <SingleCard {...item}/>
                  <div>
                    <Recomendations/>
-                   <Footer/>
+                   {/* <Footer/> */}
                  </div>
                 </>
             )

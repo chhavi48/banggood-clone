@@ -23,7 +23,7 @@ const Product = (props) => {
     <Div onClick={()=>{HandleProduct(props.id)}} className={styles.Product}>
         <Pic src={props.image} alt="" className={styles.Photo}/>
        <div style={{padding:"10px"}}>
-       <h5 style={{color:"#ff6e26"}}>${props.price}</h5>
+       <h5 style={{color:"#ff6e26"}}>₹{props.price}</h5>
        <p style={{fontSize:"13px"}}>{props.name}</p>
        </div>
      </Div>
