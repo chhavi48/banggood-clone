@@ -48,8 +48,7 @@ const handleSubmit=(e)=>{
   
   return(
  <Container>
-   <div style={{backgroundColor:"#fff5e6",color:"#ff4b31"}} className="mb-3 p-2">
-     Get Free Gift and ₹2 allowance for New User</div>
+ 
      <form onSubmit={handleSubmit}>
   <Form.Control className='mb-4 pt-2 pb-2'
     type="text"
@@ -89,7 +88,7 @@ const handleSubmit=(e)=>{
 </div>
 <h6 style={{textAlign:"center", color:"grey"}} className="mt-2">Quick Access With</h6>
 <Options>
-  <Logo src="https://img.icons8.com/color/344/mac-os--v1.png" alt="" />
+
   <Logo src="https://img.icons8.com/color/344/facebook-circled--v1.png" alt="" />
   <Logo src="https://img.icons8.com/color/344/google-logo.png" alt="" />
   <Logo src="https://img.icons8.com/color/344/twitter-circled.png" alt="" />

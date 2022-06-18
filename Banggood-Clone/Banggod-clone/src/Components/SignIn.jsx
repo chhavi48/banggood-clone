@@ -89,7 +89,7 @@ const SignIn = () => {
 
 <h6 className="mt-2"style={{textAlign:"center", color:"grey"}}>Quick Access With</h6>
 <Options>
-  <Logo src="https://img.icons8.com/color/344/mac-os--v1.png" alt="" />
+
   <Logo src="https://img.icons8.com/color/344/facebook-circled--v1.png" alt="" />
   <Logo src="https://img.icons8.com/color/344/google-logo.png" alt="" />
   <Logo src="https://img.icons8.com/color/344/twitter-circled.png" alt="" />
